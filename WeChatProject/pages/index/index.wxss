@@ -1,0 +1,72 @@
+/**index.wxss**/
+.page-container{
+  padding: 36rpx;
+}
+
+.header{
+  background-color: #3d7ef9;
+  color: #fff;
+  border-radius: 36rpx;
+  padding: 32rpx 64rpx;
+}
+
+.header .header-row1{
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+.header .header-row2{
+  display: flex;
+  justify-content: space-between;
+  font-size: 65rpx;
+}
+.header .header-row3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36rpx;
+  font-size: 24rpx;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #8f8b8b;
+  width: 300rpx;
+  height: 160rpx;
+  box-shadow: #d6d6d6 0 0 8rpx;
+  border-radius: 36rpx;
+  padding: 15rpx;
+  margin-top: 36rpx;
+}
+
+.card .icon{
+  width: 72rpx;
+  height: 72rpx;
+}
+
+.title{
+  font-size: 30rpx;
+}
+
+.value{
+  font-size: 40rpx;
+}
+
+.value switch{
+  transform: scale(.75);
+}
+
+.text{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30rpx;
+  margin-left: 10rpx;
+}

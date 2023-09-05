@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="page-container">
+  <!-- 头部部分 -->
+  <view class="header">
+    <view class="header-row1">
+      <view class="header-row1-left">空气质量-良</view>
+      <view class="header-row1-right">山阳区-焦作市</view>
+    </view>
+    <view class="header-row2">
+      <view class="header-row2-left">30</view>
+      <view class="header-row2-right">晴</view>
+    </view>
+    <view class="header-row3">
+      <view class="header-row3-left">今天天气不错</view>
+      <view class="header-row3-right"></view>
+    </view>
+  </view>
+  <!-- 数据部分 -->
+  <view class="data">
+    <view class="data-row1 data-row">
+      <view class="data-row1-left card">
+        <image class="icon" src="/static/temp.png"/>
+        <view class="text">
+          <view class="title">温度</view>
+          <view class="value">{{Temp}}℃</view>
+        </view>
+      </view>
+      <view class="data-row1-right card">
+        <image class="icon" src="/static/hum.png"/>
+        <view class="text">
+          <view class="title">湿度</view>
+          <view class="value">{{Hum}}%</view>
+        </view>
+      </view>
+    </view>
+    <view class="data-row2 data-row">
+      <view class="data-row2-left card">
+        <image class="icon" src="/static/light.png"/>
+        <view class="text">
+          <view class="title">光照</view>
+          <view class="value">{{Light}}Lx</view>
+        </view>
+      </view>
+      <view class="data-row2-right card">
+        <image class="icon" src="/static/led.png"/>
+        <view class="text">
+          <view class="title">台灯</view>
+          <view class="value">
+            <switch checked="{{Led}}" bindchange="onLedChange" color="3d7ef9"/>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
